@@ -18,6 +18,7 @@ def read_barcodes(frame):
 
     return frame
 
+# a loop that runs the function until the QR code is detected
 while True:
     screen = np.array(ImageGrab.grab(bbox=(0,0,1920,1080)))
     while True:
